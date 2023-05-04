@@ -1,0 +1,36 @@
+.home-states-and-cases-main-container {
+  border: 2px solid grey;
+  width: 75%;
+  border-radius: 5px;
+  height: 100vh;
+}
+.states-main-headings {
+  display: flex;
+  flex-direction: row;
+}
+.remaining-headings {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: 10%;
+  color: #ffffff;
+}
+.states-row-main-heading {
+  width: 32%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: #ffffff;
+  padding-left: 25px;
+}
+.sorting-asc {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.h-r {
+  color: grey;
+  border: 0.5px solid grey;
+}

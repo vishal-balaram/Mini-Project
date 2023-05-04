@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-main-container {
+  background-color: #151525;
+  height: 100%;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin: 0px;
+  border: 1px solid;
+  padding: 100px;
+}
+.app-content-container {
+  border: 1px solid red;
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.input-container {
+  width: 55%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #3a3771;
+  border-radius: 5px;
+}
+.search-input {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+}
+.search-icon-container {
+  height: 100%;
+  width: 10%;
+  padding: 15px;
+  color: #9693cb;
+}
+
+.follow-us-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  padding-top: 0px;
+}
+
+.follow-us-para {
+  color: #d4d3e7;
+  font-size: 16px;
+  margin-top: 5px;
+}
+.icons-container {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.git-hubs-logo {
+  color: #ffffff;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+.instagram-logo {
+  color: #ffffff;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+.twitter-logo {
+  color: #ffffff;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}

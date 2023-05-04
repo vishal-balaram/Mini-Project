@@ -1,0 +1,36 @@
+.header-container {
+  background-color: #25243e;
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 155px;
+  padding-left: 135px;
+}
+
+.covid-heading {
+  color: #ffffff;
+  cursor: pointer;
+}
+.heading-india {
+  color: blue;
+  cursor: pointer;
+}
+.home-para {
+  color: #ffffff;
+  cursor: pointer;
+}
+.about-para {
+  color: #55505f;
+  cursor: pointer;
+}
+.home-about-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 16%;
+  padding: 25px;
+  /* margin-right: 155px; */
+}
